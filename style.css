@@ -1,0 +1,52 @@
+
+body {
+    background-image: url("vollebyalkl bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #222222;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.row {
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Page title */
+.container.text-center {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Information sections */
+.row .col-12 {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Section headings */
+h3 {
+    background-color: #ffdc50;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Volleyball photo at the top */
+.volleyball-photo {
+    display: none;
+}
+
+/* Footer */
+.row:last-child .col-12 {
+    background-color: transparent;
+    text-align: center;
+}
